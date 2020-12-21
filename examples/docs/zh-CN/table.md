@@ -11,6 +11,7 @@
   <template>
     <el-table
       :data="tableData"
+      size="small"
       style="width: 100%">
       <el-table-column
         prop="date"
